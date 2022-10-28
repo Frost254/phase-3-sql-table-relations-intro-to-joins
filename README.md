@@ -126,6 +126,7 @@ FROM cats
 INNER JOIN owners
 ON cats.owner_id = owners.id;
 ```
+SELECT * FROM cats WHERE owner_id = 2;
 
 Let's break this down:
 
